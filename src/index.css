@@ -14,7 +14,7 @@ ol, ul {
    padding-left: 30px;
 }
 
-.board-row: after {
+.board-row:after {
   clear: both;
   content: "";
   display: table;
@@ -24,6 +24,7 @@ ol, ul {
  background: transparent;
  border: 1px solid transparent;
  float: left;
+ font size: 24px;	
  font-weight: bold;
  line-height: 34px;
  height: 48px;
@@ -38,7 +39,7 @@ ol, ul {
   outline: none;
 }
 
-.kbd-navigation .square: focus {
+.kbd-navigation .square:focus {
  background: #ddd;
 }
 
@@ -51,7 +52,7 @@ ol, ul {
 margin-left: 20px;
 }
 
-.icons-attribution, .game-status, .fallen-soldier-block {
+.icons-attribution, .game-status, .fallen-soldier-block{
 	margin-top: 20px;
 	min-height: 50px;
 }
